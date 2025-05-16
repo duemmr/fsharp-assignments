@@ -1,6 +1,5 @@
 open System
 
-(*
 // 1
 let squareList (nums: int list) : int list =
     nums |> List.map (fun x -> x * x)
@@ -157,7 +156,6 @@ let convTemp value fromS toS =
 
 let tempF = convTemp 120.0 Celsius Fahrenheit
 printfn "Temp in F is: %f" tempF
-*)
 
 // 20
 let rec isPalindrome (str: string) =
